@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background Image Example</title>
-    <link rel="stylesheet" href="StyleArch.css">
+    <link rel="stylesheet" href="css/StyleArch.css"> 
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-
     <script src="https://kit.fontawesome.com/eaf0c54694.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    <nav>
+        <ul>
+          <li><a href="IndexArch.html">Home</a></li>
+          <li><a href="Portfolio.html" data-scroll>Portfolio</a></li>
+          <li><a href="#about-us" data-scroll>About Us</a></li>
+          <li><a href="#services" data-scroll>Services</a></li>
+          <li><a href="#contacts" data-scroll>Contacts</a></li>
+        </ul>
+      </nav>
+    
+    
     <div class="full-screen-bg">
         <div class="text-overlay">
             <h1>AMOOR</h1>
@@ -20,41 +29,41 @@
 
     <div class="about-us">
         <h1>ՄԵՐ ՄԱՍԻՆ</h1>
-            <p>
-                Մեր ընկերությունը տրամադրում է արխիտեկտուրայի և դիզայնի համալիր լուծումներ:
-                Մենք մասնագիտանում ենք բնակելի, կոմերցիոն և արդյունաբերական նախագծերում, 
-                որոնք արտահայտում են ժամանակակից ոճը և կիրառական շեշտադրումները: Մեր թիմը 
-                բաղկացած է փորձառու արխիտեկտներից և դիզայներներից, ովքեր նվիրված են ամենատարբեր 
-                պահանջներին:Մենք հավատում ենք, որ յուրաքանչյուր նախագիծ յուրահատուկ է և 
-                պահանջում է անհատական մոտեցում: Մեր նպատակն է ստեղծել տարածություններ, 
-                որոնք ոգեշնչում են և պատշաճում են օգտատերերի կարիքներին: Մենք ակտիվորեն
-                համագործակցում ենք հաճախորդների հետ, որպեսզի հասնենք լավագույն արդյունքներին:
-                Մեր նախագծերը միշտ հիմնված են որակի, կայունության և նորարարության սկզբունքների վրա:
-                Մենք օգտագործում ենք արդիական տեխնոլոգիաներ և նյութեր, որպեսզի ապահովենք նախագծերի երկարաժամկետ կայունություն:
-                Մեր հաջողությունները վկայում են մեր հանձնառության մասին.
-            </p>
+        <p>
+            Մեր ընկերությունը տրամադրում է արխիտեկտուրայի և դիզայնի համալիր լուծումներ:
+            Մենք մասնագիտանում ենք բնակելի, կոմերցիոն և արդյունաբերական նախագծերում, 
+            որոնք արտահայտում են ժամանակակից ոճը և կիրառական շեշտադրումները: Մեր թիմը 
+            բաղկացած է փորձառու արխիտեկտներից և դիզայներներից, ովքեր նվիրված են ամենատարբեր 
+            պահանջներին: Մենք հավատում ենք, որ յուրաքանչյուր նախագիծ յուրահատուկ է և 
+            պահանջում է անհատական մոտեցում: Մեր նպատակն է ստեղծել տարածություններ, 
+            որոնք ոգեշնչում են և պատշաճում են օգտատերերի կարիքներին: Մենք ակտիվորեն
+            համագործակցում ենք հաճախորդների հետ, որպեսզի հասնենք լավագույն արդյունքներին:
+            Մեր նախագծերը միշտ հիմնված են որակի, կայունության և նորարարության սկզբունքների վրա:
+            Մենք օգտագործում ենք արդիական տեխնոլոգիաներ և նյութեր, որպեսզի ապահովենք նախագծերի երկարաժամկետ կայունություն:
+            Մեր հաջողությունները վկայում են մեր հանձնառության մասին.
+        </p>
     </div>
 
     <div class="portfolio">
         <h1>ՄԵՐ ԱՇԽԱՏԱՆՔՆԵՐԻՑ</h1>
         <div class="portfolio-grid">
             <div class="image-container" data-title="Project 1">
-                <img src="portfolio1.jpg" alt="Portfolio 1">
+                <img src="pictures/portfolio1.jpg" alt="Portfolio 1">
             </div>
             <div class="image-container" data-title="Project 2">
-                <img src="portfolio2.jpg" alt="Portfolio 2">
+                <img src="pictures/portfolio2.jpg" alt="Portfolio 2">
             </div>
             <div class="image-container" data-title="Project 3">
-                <img src="portfolio3.jpg" alt="Portfolio 3">
+                <img src="pictures/portfolio3.jpg" alt="Portfolio 3">
             </div>
             <div class="image-container" data-title="Project 4">
-                <img src="portfolio4.jpg" alt="Portfolio 4">
+                <img src="pictures/portfolio4.jpg" alt="Portfolio 4">
             </div>
             <div class="image-container" data-title="Project 5">
-                <img src="portfolio5.jpg" alt="Portfolio 5">
+                <img src="pictures/portfolio5.jpg" alt="Portfolio 5">
             </div>
             <div class="image-container" data-title="Project 6">
-                <img src="portfolio6.jpg" alt="Portfolio 6">
+                <img src="pictures/portfolio6.jpg" alt="Portfolio 6">
             </div>
         </div>
     </div>
@@ -63,18 +72,19 @@
         <h1>Ծառայություններ</h1>
         <div class="services-grid">
             <div class="service-item" data-title="Architecture Services">
-                <img src="architecture.jpg" alt="Architecture Services" />
+                <img src="pictures/architecture.jpg" alt="Architecture Services" />
             </div>
             <div class="service-item" data-title="Commercial Services">
-                <img src="commercial.jpg" alt="Commercial Services" />
+                <img src="pictures/commercial.jpg" alt="Commercial Services" />
             </div>
             <div class="service-item" data-title="Design">
-                <img src="design.jpg" alt="Design" />
+                <img src="pictures/design.jpg" alt="Design" />
             </div>
         </div>
     </section>
+
     <div class="logo">
-        <img src="logo.jpg" alt="Company Logo">
+        <img src="pictures/logo.jpg" alt="Company Logo">
     </div>
 
     <footer>
@@ -90,7 +100,6 @@
             </a>
         </div>
     </footer>
-    
-    
+    <script src="ArchScript.js"></script>
 </body>
 </html>
